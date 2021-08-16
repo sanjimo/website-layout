@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .photo-frame {
+            width: 300px;
+            height: 168px;
+            border: 2px solid gold;
+            border-radius: 10px;
+            position: relative;
+            margin: 5px;
+            overflow: hidden;
+        }
+
+        .photo img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .photo-detail {
+            display: none;
+            position: absolute;
+            top: 0;
+            width: 300px;
+            height: 168px;
+        }
+
+        .photo-frame:hover .photo-detail {
+            display: block;
+            background-color: rgba(224, 195, 32, 0.5);
+        }
+
+        .photo-frame:hover .photo {
+            transform: scale(1.5);
+            transition: transform 2s ease-in-out;
+        }
+
+        .photo-detail h3 {
+            color: honeydew;
+            background-color: black;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Photo Album</h1>
+    <section>
+        <h3>My favorite food photo album</h3>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/coffee.jpg" alt="coffee photo">
+                </div>
+                <div class="photo-detail">
+                    <h3>Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci eveniet cumque delectus
+                        quaerat eligendi aspernatur ipsum libero, ducimus magni fugiat vero, nihil dolor eos debitis
+                        ratione, magnam minus laborum?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/coffee.jpg" alt="coffee photo">
+                </div>
+                <div class="photo-detail">
+                    <h3>Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci eveniet cumque delectus
+                        quaerat eligendi aspernatur ipsum libero, ducimus magni fugiat vero, nihil dolor eos debitis
+                        ratione, magnam minus laborum?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/coffee.jpg" alt="coffee photo">
+                </div>
+                <div class="photo-detail">
+                    <h3>Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci eveniet cumque delectus
+                        quaerat eligendi aspernatur ipsum libero, ducimus magni fugiat vero, nihil dolor eos debitis
+                        ratione, magnam minus laborum?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/coffee.jpg" alt="coffee photo">
+                </div>
+                <div class="photo-detail">
+                    <h3>Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci eveniet cumque delectus
+                        quaerat eligendi aspernatur ipsum libero, ducimus magni fugiat vero, nihil dolor eos debitis
+                        ratione, magnam minus laborum?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/coffee.jpg" alt="coffee photo">
+                </div>
+                <div class="photo-detail">
+                    <h3>Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci eveniet cumque delectus
+                        quaerat eligendi aspernatur ipsum libero, ducimus magni fugiat vero, nihil dolor eos debitis
+                        ratione, magnam minus laborum?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/coffee.jpg" alt="coffee photo">
+                </div>
+                <div class="photo-detail">
+                    <h3>Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci eveniet cumque delectus
+                        quaerat eligendi aspernatur ipsum libero, ducimus magni fugiat vero, nihil dolor eos debitis
+                        ratione, magnam minus laborum?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/coffee.jpg" alt="coffee photo">
+                </div>
+                <div class="photo-detail">
+                    <h3>Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci eveniet cumque delectus
+                        quaerat eligendi aspernatur ipsum libero, ducimus magni fugiat vero, nihil dolor eos debitis
+                        ratione, magnam minus laborum?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/coffee.jpg" alt="coffee photo">
+                </div>
+                <div class="photo-detail">
+                    <h3>Coffee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci eveniet cumque delectus
+                        quaerat eligendi aspernatur ipsum libero, ducimus magni fugiat vero, nihil dolor eos debitis
+                        ratione, magnam minus laborum?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
